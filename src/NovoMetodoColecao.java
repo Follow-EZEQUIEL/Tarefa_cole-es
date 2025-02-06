@@ -39,6 +39,8 @@ public class NovoMetodoColecao {
             List<String> nomesMasculinos = new ArrayList<>();
             List<String> nomesFemininos = new ArrayList<>();
 
+            String[] nomes3 = texto.split("");
+
             for (String nome : nomes) {
                 if (nome.endsWith("-M")) {
                     nomesMasculinos.add(nome);
